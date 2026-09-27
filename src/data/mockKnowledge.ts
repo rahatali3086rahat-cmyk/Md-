@@ -1,0 +1,58 @@
+import { KnowledgeItem } from '../types';
+
+export const initialKnowledge: KnowledgeItem[] = [
+  {
+    id: 'kb-1',
+    businessId: 'biz-sofana',
+    title: 'Delivery Policy & Turnaround Times',
+    content: 'Delivery is available across Doha, Lusail, Al Wakrah, and Al Khor. Standard in-stock orders are delivered within 24–48 hours. White-glove delivery includes unpacking, room placement, and packaging disposal.',
+    category: 'Delivery',
+    status: 'active',
+    updatedAt: '2026-09-10',
+  },
+  {
+    id: 'kb-2',
+    businessId: 'biz-sofana',
+    title: 'Showroom Location & Working Hours',
+    content: 'Our main showroom is located on Salwa Road, Intersection 12, Doha, Qatar. Working hours are Saturday to Thursday 9:00 AM – 10:00 PM, and Friday 4:00 PM – 10:30 PM. Valet parking is available.',
+    category: 'Business Information',
+    status: 'active',
+    updatedAt: '2026-09-08',
+  },
+  {
+    id: 'kb-3',
+    businessId: 'biz-sofana',
+    title: 'Return & Exchange Policy',
+    content: 'Unopened accessories and boxed items can be returned within 14 days with original invoice. Custom-built sofas, bespoke upholstery, and mattresses are final sale unless a manufacturer defect is documented upon delivery.',
+    category: 'Returns',
+    status: 'active',
+    updatedAt: '2026-09-02',
+  },
+  {
+    id: 'kb-4',
+    businessId: 'biz-sofana',
+    title: 'Accepted Payment Methods',
+    content: 'We accept NAPS QPAY, Visa, MasterCard, Apple Pay, and Cash on Delivery (up to QAR 5,000). For B2B corporate orders, bank wire transfers with tax invoices are supported.',
+    category: 'Policies',
+    status: 'active',
+    updatedAt: '2026-08-25',
+  },
+  {
+    id: 'kb-5',
+    businessId: 'biz-sofana',
+    title: 'Warranty & Fabric Care Service',
+    content: 'All solid wood furniture frames and motors include a 2-year warranty. Spill-resistant fabrics can be cleaned with a damp microfiber cloth. Stain protector coating is applied before dispatch.',
+    category: 'Services',
+    status: 'active',
+    updatedAt: '2026-08-20',
+  },
+  {
+    id: 'kb-6',
+    businessId: 'biz-sofana',
+    title: 'Custom Dimensions & Material Swatches',
+    content: 'Customers can request custom sectional sofa lengths, L-orientation (left or right chaise), and choose from 40+ European linen, boucle, and leather swatches.',
+    category: 'Products',
+    status: 'active',
+    updatedAt: '2026-09-01',
+  },
+];

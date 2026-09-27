@@ -1,0 +1,7 @@
+{
+  "name": "ScaleUp Gulf AI",
+  "description": "Omnichannel AI Business Automation Platform. Connect WhatsApp, Facebook Messenger, Instagram, Website Chat, and Email to automate customer communication, leads, bookings, invoices, and payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
